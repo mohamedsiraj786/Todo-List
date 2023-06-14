@@ -16,9 +16,10 @@ flex-wrap: wrap;
 
 h1{
     text-align: center;
-    margin-top: 20px;top: 20px;
+  
     position: relative;
  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
 }
 
 input{
@@ -59,7 +60,7 @@ button:hover{
     justify-content: center;
     margin-left: 15px;
     margin-right: 15px;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 5px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -82,6 +83,8 @@ button:hover{
       height: auto;
       margin: 10% auto;
       padding: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
   
     h1 {
@@ -97,8 +100,10 @@ button:hover{
   
     button {
       width: 50%;
-      margin-left: 100px;
+      margin-left: auto;
+      margin-right: auto;
       margin-top: 20px;
+      display: block;
     }
   }
   
